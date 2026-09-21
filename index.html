@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrivySearch - Privacy-Focused Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo-text">PrivySearch 🔍</div>
+        <div class="controls">
+            <button id="privacy-info-btn" class="btn-secondary">Privacy Info</button>
+            <button id="clear-data-btn" class="btn-danger">Clear Local Data</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="search-homepage" class="search-home">
+            <h1 class="brand-title">PrivySearch</h1>
+            <p class="brand-tagline">A simple, clean search experience with minimal local data tracking.</p>
+            
+            <form id="search-form" class="search-box-container">
+                <input type="text" id="search-input" placeholder="How does DNS work?..." autocomplete="off" required>
+                <button type="submit" class="btn-primary">Search</button>
+            </form>
+            <p id="error-message" class="error-text hidden"></p>
+        </section>
+
+        <section id="results-section" class="results-container hidden">
+            <button id="back-home-btn" class="btn-secondary">← Back to Home</button>
+            <h2 class="results-heading">Search Results for: <span id="query-profile"></span></h2>
+            <div id="results-wrapper"></div>
+        </section>
+
+        <section id="privacy-modal" class="info-card hidden">
+            <h3>🔒 Privacy & Security Scope</h3>
+            <p>PrivySearch reduces your local footprint by avoiding permanent search histories and cookies. However, please remember its limitations:</p>
+            <ul>
+                <li>Search API providers may process submitted queries.</li>
+                <li>Destination websites can still collect visitor information.</li>
+                <li>This application does not provide VPN or Tor-level network anonymity.</li>
+            </ul>
+            <button id="close-privacy-btn" class="btn-secondary">Close</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

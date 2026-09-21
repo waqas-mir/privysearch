@@ -1,0 +1,12 @@
+{
+  "name": "privysearch",
+  "version": "1.0.0",
+  "description": "A privacy-focused search engine conceptual layout application.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
