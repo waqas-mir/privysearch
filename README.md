@@ -29,16 +29,12 @@ PrivySearch demonstrates a clean search experience with a lightweight Express ba
 
 ---
 
-## 📁 Project Structure
-
-```text
 privysearch/
 ├── index.html
 ├── style.css
 ├── script.js
 ├── server.js
-├── docs/
-│   └── homepage.png
+├── PrivySearch-Homepage-Screenshot.png
 ├── package.json
 └── README.md
 ```
