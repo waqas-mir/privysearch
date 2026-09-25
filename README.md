@@ -75,7 +75,7 @@ This project is a frontend prototype with a small Express backend. The frontend 
 
 ## 📸 Screenshots
 
-![PrivySearch homepage](./docs/homepage.png)
+![PrivySearch homepage](./PrivySearch-Homepage-Screenshot.png)
 
 ---
 
