@@ -29,6 +29,9 @@ PrivySearch demonstrates a clean search experience with a lightweight Express ba
 
 ---
 
+## 📁 Project Structure
+
+```text
 privysearch/
 ├── index.html
 ├── style.css
