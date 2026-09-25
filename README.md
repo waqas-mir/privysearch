@@ -4,27 +4,33 @@ A privacy-focused search interface prototype built with HTML, CSS, JavaScript, N
 
 PrivySearch demonstrates a clean search experience with a lightweight Express backend, temporary browser data controls, and a mock search-results API.
 
-> **Project status:** Prototype. The current backend returns sample results and does not connect to a live search provider yet.
+> Project status: Prototype. The current backend returns sample results and does not connect to a live external search provider yet.
 
 ---
 
-## ✨ Core Features
+## ✨ Features
 
-- Clean and responsive search interface
+- Clean and minimal search interface
+- Responsive layout for desktop and mobile screens
 - Express backend API route at `/api/search`
 - Mock search results for demonstration
-- Temporary session data stored in browser `localStorage`
-- Button to clear locally stored application data
-- Privacy information panel explaining the project's limitations
-- Responsive layout for desktop and mobile screens
-
-## 🛠️ Technology Stack
-* **Frontend:** HTML5, CSS3, JavaScript ES6 (Asynchronous Fetch APIs, responsive flex design layouts)
-* **Backend:** Node.js, Express.js (Restrained secure route proxy handling modules)
+- Temporary browser session data stored in `localStorage`
+- Clear-data button to remove local temporary data
+- Privacy notice explaining the app’s limitations
 
 ---
 
-## 📦 Project Structure
+## 🛠️ Tech Stack
+
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js, Express
+- Browser storage: `localStorage`
+- Architecture: simple frontend + mock API prototype
+
+---
+
+## 📁 Project Structure
+
 ```text
 privysearch/
 ├── public/
@@ -33,28 +39,54 @@ privysearch/
 │   └── script.js
 ├── server/
 │   └── server.js
-└── README.md
+├── README.md
+└── package.json
 ```
 
 ---
 
-## ⚙️ Installation & Local Setup
+## ⚙️ Installation
 
 ### Prerequisites
-Ensure you have [Node.js](https://nodejs.org/) runtime engine environment configurations set up.
+- Node.js installed on your machine
 
 ### Steps
-1. **Unzip the downloaded folder structures.**
-2. **Navigate into the target folder path:**
-   ```bash
-   cd privysearch
-   ```
-3. **Install routing packages dependencies:**
+1. Open a terminal in the project folder.
+2. Install dependencies:
    ```bash
    npm install
    ```
-4. **Boot up the server:**
+3. Start the server:
    ```bash
    npm start
    ```
-5. Open your local browser to access the endpoint portal interface at `http://localhost:3000`.
+4. Open the app in your browser:
+   ```text
+   http://localhost:3000
+   ```
+
+---
+
+## 🧠 How It Works
+
+This project is a frontend prototype with a small Express backend. The frontend sends user queries to `/api/search`, and the backend responds with mock search results for demonstration purposes. The app also includes a privacy panel and a clear-data button to show how temporary session data can be managed on the client side.
+
+---
+
+## 📸 Screenshots
+
+![PrivySearch homepage](./docs/screenshot.png)
+
+---
+
+## 📝 Notes
+
+This project is designed as a concept/demo rather than a production-grade search engine. It is useful for showcasing frontend/backend integration, client-side privacy controls, and UI design ideas.
+
+---
+
+## 🔗 Links
+
+- GitHub: https://github.com/waqas-mir/privysearch
+- LinkedIn: https://www.linkedin.com/in/waqasmir-dev/
+- Email: waqasmir2005@gmail.com
