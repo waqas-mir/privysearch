@@ -1,16 +1,22 @@
 # PrivySearch 🔍
 
-A privacy-focused search engine web application designed to provide a minimal, clean search experience while reducing unnecessary local data retention and tracking.
+A privacy-focused search interface prototype built with HTML, CSS, JavaScript, Node.js, and Express.
+
+PrivySearch demonstrates a clean search experience with a lightweight Express backend, temporary browser data controls, and a mock search-results API.
+
+> **Project status:** Prototype. The current backend returns sample results and does not connect to a live search provider yet.
 
 ---
 
 ## ✨ Core Features
-* **Live Search Integration:** Fetches and processes web results (titles, snippets, and source domains) safely via an external backend router structure.
-* **Privacy-Conscious Architecture:** Minimizes local footprint data retention; routes client lookups through a Node secure layer to safeguard downstream credentials.
-* **On-Demand Data Control:** Features a dedicated client-side dashboard module to instantly clear temporary session metadata structures from browser local storage storage blocks.
-* **Responsive Interface:** Fully optimized fluid layout structure built for seamless cross-device compatibility handling across desktop, tablet, and mobile breakpoints.
 
----
+- Clean and responsive search interface
+- Express backend API route at `/api/search`
+- Mock search results for demonstration
+- Temporary session data stored in browser `localStorage`
+- Button to clear locally stored application data
+- Privacy information panel explaining the project's limitations
+- Responsive layout for desktop and mobile screens
 
 ## 🛠️ Technology Stack
 * **Frontend:** HTML5, CSS3, JavaScript ES6 (Asynchronous Fetch APIs, responsive flex design layouts)
