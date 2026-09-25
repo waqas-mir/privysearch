@@ -33,14 +33,14 @@ PrivySearch demonstrates a clean search experience with a lightweight Express ba
 
 ```text
 privysearch/
-├── public/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── server/
-│   └── server.js
-├── README.md
-└── package.json
+├── index.html
+├── style.css
+├── script.js
+├── server.js
+├── docs/
+│   └── homepage.png
+├── package.json
+└── README.md
 ```
 
 ---
@@ -75,7 +75,7 @@ This project is a frontend prototype with a small Express backend. The frontend 
 
 ## 📸 Screenshots
 
-![PrivySearch homepage](./docs/screenshot.png)
+![PrivySearch homepage](./docs/homepage.png)
 
 ---
 
